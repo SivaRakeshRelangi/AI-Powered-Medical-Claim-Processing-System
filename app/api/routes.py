@@ -11,11 +11,25 @@ async def process_claim(
     claim_id: str = Form(...),
     file: UploadFile = File(...)
 ):
-    pages = load_pdf_pages(file.file)
+    try:
+        print("🔵 Processing started")
 
-    result = graph.invoke({
-        "claim_id": claim_id,
-        "pages": pages
-    })
+        pages = load_pdf_pages(file.file)
 
-    return result["final_output"]
+        print("🟢 OCR done")
+
+        result = graph.invoke({
+            "claim_id": claim_id,
+            "pages": pages
+        })
+
+        print("🟢 Graph done")
+
+        return result["final_output"]
+
+    except Exception as e:
+        import traceback
+        print("🔴 ERROR:", str(e))
+        traceback.print_exc()
+
+        return {"error": str(e)}
