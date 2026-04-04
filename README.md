@@ -6,7 +6,7 @@ An end-to-end intelligent system that processes medical insurance claims from PD
 ### Deployed ON Hugging Spaces
  
   -  API LINK: https://rsrlearner-ai-powered-medical-claim-processing-system.hf.space/docs#/default/process_claim_api_process_post
-## API Using Postman - Screenshots
+## API Using Give Input PDF Claims Here and Execute - Screenshots
 
 ![App Screenshot](ClaimProcessingDemoSS.png)
 ## API Usage
