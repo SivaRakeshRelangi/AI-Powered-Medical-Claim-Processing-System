@@ -18,9 +18,13 @@ OCR (pdf2image + pytesseract)
 Segregator Agent (LLM Classification)
 ↓
 ┌───────────────┬───────────────┬───────────────┐
+
 ↓               ↓               ↓
+
 ID Agent   Discharge Agent    Billing Agent
+
 ↓               ↓               ↓
+
 └───────────────┴───────────────┴───────────────┘
 ↓
 Aggregator
