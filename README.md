@@ -3,7 +3,14 @@
 An end-to-end intelligent system that processes medical insurance claims from PDFs using OCR, LLMs, and a multi-agent workflow powered by LangGraph.
 
 ---
+### Deployed ON Hugging Spaces
+ 
+  -  API LINK: https://rsrlearner-ai-powered-medical-claim-processing-system.hf.space/docs#/default/process_claim_api_process_post
+## API Using Postman - Screenshots
 
+![App Screenshot](ClaimProcessingDemoSS.png)
+## API Usage
+![App Screenshot](ClaimAIAgentsResponseSS.png)
 ## 🚀 Overview
 
 This project automates the extraction of structured information from unstructured medical claim documents. It leverages OCR for text extraction and Large Language Models (LLMs) for intelligent classification and data extraction.
