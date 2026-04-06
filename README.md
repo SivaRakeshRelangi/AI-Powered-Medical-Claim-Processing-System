@@ -77,19 +77,7 @@ Final JSON Output
 
 ---
 
-## 📁 Project Structure
-claim-processing/
-│
-├── app/
-│ ├── api/ # FastAPI routes
-│ ├── agents/ # LLM-based agents
-│ ├── services/ # OCR + LLM services
-│ ├── graph/ # LangGraph workflow
-│ ├── core/ # Configuration
-│
-├── Dockerfile
-├── requirements.txt
-└── README.md
+
 
 ## Create ENV for python and install dependencies
 pip install -r requirements.txt
